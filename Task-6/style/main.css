@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 .header {
@@ -79,4 +81,251 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+
+.main {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main__info {
+  margin: 64px 0 64px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  /* or 128% */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.main__card {
+  display: flex;
+  justify-content: space-between;
+  height: 480px;
+  margin-bottom: 64px;
+}
+
+.card {
+  width: 358px;
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+
+.card__img {
+  margin: 44px 90px 44px 90px;
+}
+
+.card__info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  letter-spacing: 0.05em;
+
+  /* Blue_01 */
+
+  color: #1f3f68;
+}
+
+.card__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+
+  opacity: 0.6;
+}
+
+.card__info,
+.card__text {
+  width: 295px;
+  margin-left: 32px;
+  margin-bottom: 14px;
+}
+
+.card__link {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5a98d0;
+}
+
+.card__about {
+  margin-right: 20px;
+  color: #5a98d0;
+}
+
+.project__heading {
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  /* identical to box height, or 128% */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.project__text {
+  width: 750px;
+  margin: 0 195px 64px 195px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #222222;
+}
+
+.project__card__group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.footer {
+  width: 1366px;
+  margin: 0 auto;
+  background-color: #316099;
+}
+
+.footer__container {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 112px;
+}
+
+.footer__container__contact {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.footer__header {
+  width: 340px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  padding-bottom: 32px;
+}
+
+.footer__text {
+  width: 494px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer__information {
+  padding-top: 91px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 96px;
+}
+
+.footer__btn {
+  width: 237px;
+  height: 56px;
+  background: #5a98d0;
+  border: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+
+.footer__line {
+  opacity: 0.4;
+}
+
+.footer__contact {
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  letter-spacing: 0.05em;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.footer__text__1 {
+  width: 270px;
+  margin-right: 130px;
+}
+
+.footer__text__2 {
+  margin-right: 230px;
+}
+
+.footer__license {
+  padding-left: 113px;
+  padding-bottom: 64px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: 0.05em;
+
+  /* white */
+
+  color: #ffffff;
+
+  opacity: 0.4;
 }
